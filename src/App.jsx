@@ -50,11 +50,11 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div onClick={flip} className="App">
       <h1>React Flashcard</h1>
 
       <div className="cards">
-        <Cards cartas={cartas} index={index} changeIndex={changeIndex} side={side} flip={flip} />
+        <Cards cartas={cartas} index={index} changeIndex={changeIndex} side={side} />
       </div>
       
       <ChangeCards changeIndex={changeIndex} />
