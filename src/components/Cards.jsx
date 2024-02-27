@@ -1,9 +1,9 @@
 import './Cards.css';
 
-const Cards = ({cartas, index, side}) => {
+const Cards = ({cartas, index, side, flip}) => {
     return (
         <>
-            <p>{cartas[index][side]}</p>
+            <p onClick={flip}>{cartas[index][side]}</p>
         </>
     )
 }
