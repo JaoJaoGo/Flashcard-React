@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('./img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100dvh;
+    width: 100dvw;
+    justify-content: center;
+}
+
+#root {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}

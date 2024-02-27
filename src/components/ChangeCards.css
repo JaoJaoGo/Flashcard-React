@@ -1,0 +1,24 @@
+.botoes button {
+    position: fixed;
+    background-color: #00008b;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+
+.botoes button:active {
+    background-color: #0606d0;
+}
+
+#esquerdo {
+    top: 325px;
+    left: 510px;
+}
+
+#direito {
+    top: 325px;
+    right: 510px;
+}

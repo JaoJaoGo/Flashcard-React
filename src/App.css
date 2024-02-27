@@ -1,0 +1,16 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffa;
+    align-items: center;
+    width: 375px;
+    height: 390px;
+    margin-top: 10%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+}
